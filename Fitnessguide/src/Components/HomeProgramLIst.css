@@ -1,0 +1,20 @@
+
+.scrolling-wrapper {
+  display: flex;
+  gap: 2rem;
+  animation: scrollLeft 25s linear infinite;
+  width: max-content;
+}
+
+.scroll-item {
+  flex: 0 0 auto;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
