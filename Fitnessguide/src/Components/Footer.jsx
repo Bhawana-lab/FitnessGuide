@@ -1,6 +1,5 @@
 import Recat from 'react';
-import Logo from "/src/assets/Pages/logo.png";
-// import Logo from "../assets/Pages/Logo.png";
+import Logo from "/src/assets/Pages/Logo.png";
 import Facebook from '/src/assets/Pages/Facebook.png';
 import Instagram from '/src/assets/Pages/Instagram.png';
 import LinkedIn from '/src/assets/Pages/LinkedIn.png';
