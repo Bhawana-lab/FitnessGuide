@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { supabase } from '../lib/supabaseClient';
-import Check from '../assets/Pages/Check.png';
+import { supabase } from '/src/lib/supabaseClient';
+import Check from '/src/assets/Pages/Check.png';
 
 const LoginSignUp = () => {
     const [name, setName] = useState('');

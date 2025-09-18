@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import ProgramDetails from '../Components/Programs/ProgramDetails.jsx';
+import ProgramDetails from '/src/Components/Programs/ProgramDetails.jsx';
 import HomeProgramList from './HomeProgramList.jsx';
-import ProgramConfirmation from '../Components/Programs/ProgramConfirmation.jsx';
+import ProgramConfirmation from '/src/Components/Programs/ProgramConfirmation.jsx';
 const HomeProgram = () => {
   const [selectedProgram, setSelectedProgram] = useState(null);
   const [showConfirmation, setShowConfirmation] = useState(false);

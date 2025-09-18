@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Back from '../../assets/Pages/Back.png';
-import Check from '../../assets/Pages/Check.png';
+import Back from '/src/assets/Pages/Back.png';
+import Check from '/src/assets/Pages/Check.png';
 const ProgramDetails = ({selectedProgram, userEmail, handleEmailChange, handleStartProgram, backToPrograms}) =>{
     return (
         <div className="min-h-screen bg-black text-white overflow-x-hidden">

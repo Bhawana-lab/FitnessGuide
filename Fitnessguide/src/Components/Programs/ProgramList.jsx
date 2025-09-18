@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import ProgramBanner from '../../assets/Pages/ProgramBanner.png';
-import { workoutPrograms } from '../workoutPrograms';
+import ProgramBanner from '/src/assets/Pages/ProgramBanner.png';
+import { workoutPrograms } from './workoutPrograms.js';
 const ProgramList = ({ onSelect}) =>{
     // const [selectedProgram, setSelectedProgram] = useState(null);
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { trainers } from './Trainers';
-import TrainerBanner from '../assets/Pages/TrainerBanner.png';
+import TrainerBanner from '/src/assets/Pages/TrainerBanner.png';
 import TrainerProfile from './TrainerProfile.jsx';
 const Trainer = () => {
   const [selectedTrainer, setSelectedTrainer] = useState(null);

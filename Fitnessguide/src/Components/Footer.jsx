@@ -1,12 +1,13 @@
 import Recat from 'react';
-import Logo from "../assets/Pages/Logo.png";
-import Facebook from '../assets/Pages/Facebook.png';
-import Instagram from '../assets/Pages/Instagram.png';
-import LinkedIn from '../assets/Pages/LinkedIn.png';
-import Mail from '../assets/Pages/Mail.png';
-import Phone from '../assets/Pages/Phone.png';
-import MapPin from '../assets/Pages/Map.png';
-import YouTube from "../assets/Pages/YouTube.png";
+import Logo from "/src/assets/Pages/logo.png";
+// import Logo from "../assets/Pages/Logo.png";
+import Facebook from '/src/assets/Pages/Facebook.png';
+import Instagram from '/src/assets/Pages/Instagram.png';
+import LinkedIn from '/src/assets/Pages/LinkedIn.png';
+import Mail from '/src/assets/Pages/Mail.png';
+import Phone from '/src/assets/Pages/Phone.png';
+import MapPin from '/src/assets/Pages/Map.png';
+import YouTube from "/src/assets/Pages/YouTube.png";
 const Footer = () =>{
     return (
         <footer className="bg-black text-white pt-16 pb-8">

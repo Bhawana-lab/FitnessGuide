@@ -1,9 +1,9 @@
-import Program1 from "../assets/Pages/Photo1.png";
-import Program2 from "../assets/Pages/Photo2.png";
-import Program3 from "../assets/Pages/Photo3.png";
-import Program4 from "../assets/Pages/Photo4.png";
-import Program5 from "../assets/Pages/Photo5.png";
-import Program6 from "../assets/Pages/Photo6.png";
+import Program1 from "/src/assets/Pages/Photo1.png";
+import Program2 from "/src/assets/Pages/Photo2.png";
+import Program3 from "/src/assets/Pages/Photo3.png";
+import Program4 from "/src/assets/Pages/Photo4.png";
+import Program5 from "/src/assets/Pages/Photo5.png";
+import Program6 from "/src/assets/Pages/Photo6.png";
 export const workoutPrograms = [
     {
       id: 1,

@@ -1,5 +1,4 @@
-import React, { useState}  from 'react';
-import DemoPoster from '../assets/Pages/DemoPoster.png';
+import React  from 'react';
 const Demo = () =>{
     return(
         <div className='min-h-screen bg-black/50 flex items-center justify-center px-4'>

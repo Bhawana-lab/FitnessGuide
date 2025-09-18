@@ -1,9 +1,9 @@
 import React from 'react';
-import Confirm from '../../assets/Pages/Confirm.png';
-import AccessDashboard from '../../assets/Pages/AccessDashboard.png';
-import Progress from '../../assets/Pages/Progress.png';
-import Support from '../../assets/Pages/Support.png';
-import Back from '../../assets/Pages/Back.png';
+import Confirm from '/src/assets/Pages/Confirm.png';
+import AccessDashboard from '/src/assets/Pages/AccessDashboard.png';
+import Progress from '/src/assets/Pages/Progress.png';
+import Support from '/src/assets/Pages/Support.png';
+import Back from '/src/assets/Pages/Back.png';
 const ProgramConfirmation = ({selectedProgram, userEmail, backToPrograms})=>{
     return(
        <div className="min-h-screen bg-black text-white overflow-x-hidden">

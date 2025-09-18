@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import Scroll from '../assets/Pages/scrollDown.png';
+import Scroll from '/src/assets/Pages/scrollDown.png';
 const Hero = ({ onWatchDemo}) =>{
   //   const [isMenuOpen, setIsMenuOpen]=useState(false);
   // const closeMenu = () =>{

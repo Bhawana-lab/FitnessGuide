@@ -1,9 +1,9 @@
-import SS1 from '../assets/Pages/SS1.png';
-import SS2 from '../assets/Pages/SS2.png';
-import SS3 from '../assets/Pages/SS3.png';
-import SS4 from '../assets/Pages/SS4.png';
-import SS5 from '../assets/Pages/SS5.png';
-import SS6 from '../assets/Pages/SS6.png';
+import SS1 from '/src/assets/Pages/SS1.png';
+import SS2 from '/src/assets/Pages/SS2.png';
+import SS3 from '/src/assets/Pages/SS3.png';
+import SS4 from '/src/assets/Pages/SS4.png';
+import SS5 from '/src/assets/Pages/SS5.png';
+import SS6 from '/src/assets/Pages/SS6.png';
 export const testimonials = [
     {
       id: 1,

@@ -1,5 +1,5 @@
 import React , { useState } from 'react';
-import Confirm from '../assets/Pages/Confirm.png';
+import Confirm from '/src/assets/Pages/Confirm.png';
 const Contact = () =>{
     const [formData, setFormData] = useState({
     name: '',

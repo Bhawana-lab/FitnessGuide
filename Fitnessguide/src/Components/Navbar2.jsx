@@ -1,12 +1,12 @@
 import React, { useState} from "react";
-import Logo from '../assets/Pages/logo.png';
+import Logo from '/src/assets/Pages/logo.png';
 import Hero from "./Hero";
 import Demo from "./Demo";
 import Program from "./Programs/Program.jsx";
 import Trainer from "./Trainer";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
-import LoginPage from '../assets/Pages/LoginPage.png';
+import LoginPage from '/src/assets/Pages/LoginPage.png';
 import LoginSignUp from "./LoginSignUp.jsx";
 import HomeProgram from "./HomeProgram.jsx";
 import Newsletter from "./NewsLetter.jsx";

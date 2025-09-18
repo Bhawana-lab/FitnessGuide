@@ -1,7 +1,7 @@
 import React from 'react';
 import './TrainerProfile.css';
-import Cross from '../assets/Pages/Cross.png';
-import Star from '../assets/Pages/Star.png';
+import Cross from '/src/assets/Pages/Cross.png';
+import Star from '/src/assets/Pages/Star.png';
 const TrainerProfile =({ trainer, onClose}) =>{
     return (
         <div  className="py-30 bg-gray-900/50">

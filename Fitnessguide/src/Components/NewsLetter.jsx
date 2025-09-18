@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Check from '../assets/Pages/Check.png';
+import Check from '/src/assets/Pages/Check.png';
 const Newsletter = () => {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
