@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import ProgramBanner from '/src/assets/Pages/ProgramBanner.png';
+import View from '/src/assets/Pages/View.png';
 import { workoutPrograms } from './workoutPrograms.js';
 const ProgramList = ({ onSelect}) =>{
     // const [selectedProgram, setSelectedProgram] = useState(null);
@@ -69,9 +70,7 @@ const ProgramList = ({ onSelect}) =>{
                 <button 
                 className="inline-flex items-center px-8 py-4 my-20 bg-transparent border-2 border-white/30 hover:border-white/50 text-white font-medium rounded-full transition-all duration-300 hover:bg-white/5 backdrop-blur-sm hover:shadow-xl">
                   View All Programs
-                  <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                  </svg>
+                  <img src={View} alt='' className=' h-4 w-6 ml-2'/>
                 </button>
               </div>
             </div>

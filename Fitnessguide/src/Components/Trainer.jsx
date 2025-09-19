@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { trainers } from './Trainers';
 import TrainerBanner from '/src/assets/Pages/TrainerBanner.png';
 import TrainerProfile from './TrainerProfile.jsx';
+import View from '/src/assets/Pages/View.png';
 const Trainer = () => {
   const [selectedTrainer, setSelectedTrainer] = useState(null);
   return (
@@ -56,10 +57,7 @@ const Trainer = () => {
            {/* View All btn */}
           <div className="text-center mt-12">
             <button className="inline-flex items-center px-8 py-4  my-20 bg-transparent border-2 border-white/30 hover:border-white/50 text-white font-medium rounded-full transition-all duration-300 hover:bg-white/5 backdrop-blur-sm hover:shadow-xl">
-              Dive Deeper
-              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-              </svg>
+              Dive Deeper <img src={View} alt='' className=' h-4 w-6 ml-2'/>
             </button>
           </div>
         </div>

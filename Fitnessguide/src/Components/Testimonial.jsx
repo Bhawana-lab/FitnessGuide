@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { testimonials } from './Testimonials.js';
+import Prev from '/src/assets/Pages/Prev.png';
+import Next from '/src/assets/Pages/Next.png';
 const Testimonial = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   useEffect(() => {
@@ -48,7 +50,7 @@ const Testimonial = () => {
         </div>
 
         <div className="relative max-w-4xl mx-auto">
-          {/* Testimonial Card */}
+          {/* cards */}
           <div className="bg-gray-900/80 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12 text-center border border-purple-500/20 relative z-10">
             <div className="flex justify-center mb-6">
               <img 
@@ -68,25 +70,19 @@ const Testimonial = () => {
             </div>
           </div>
 
-          {/* Navigation Buttons */}
+          {/*previous btns */}
           <button 
             onClick={prevTestimonial}
             className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-gray-800/80 backdrop-blur-sm rounded-full p-3 shadow-lg hover:bg-gray-700 transition-all duration-300 text-purple-300 hover:text-purple-200 z-20"
             aria-label="Previous testimonial"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M15 18l-6-6 6-6"></path>
-            </svg>
+          ><img src={Prev} alt='' className='h-9 w-9 rounded-full'/>
           </button>
-
+          {/* next btn */}
           <button 
             onClick={nextTestimonial}
             className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-gray-800/80 backdrop-blur-sm rounded-full p-3 shadow-lg hover:bg-gray-700 transition-all duration-300 text-purple-300 hover:text-purple-200 z-20"
             aria-label="Next testimonial"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M9 18l6-6-6-6"></path>
-            </svg>
+          ><img src={Next} alt='' className='h-9 w-9 rounded-full'/>
           </button>
 
           {/* Indicator Dots */}
