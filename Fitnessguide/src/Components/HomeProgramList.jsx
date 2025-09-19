@@ -1,6 +1,6 @@
 import React from 'react';
 import { homeworkoutprograms } from './homeworkoutprograms.js';
-import './HomeProgramList.css'; 
+import './HomeProgramLIst.css'; 
 const HomeProgramList = ({ onSelect }) => {
   // for loop
   const scrollingPrograms = [...homeworkoutprograms, ...homeworkoutprograms];
