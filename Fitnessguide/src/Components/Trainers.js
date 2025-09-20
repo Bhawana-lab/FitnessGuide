@@ -21,6 +21,7 @@ export const  trainers = [
       name: "Manoj Singh",
       specialty: "Yoga & Mindfulness",
       image: Trainer2, 
+      bio: "Manoj is a certified yoga and meditation trainer, dedicated to helping others find balance, clarity, and inner peace through mindful movement and breathwork.",
       certifications: ["RYT-500", "MBSR Certified", "Reiki Master"],
       availability: ["Tue", "Thu", "Sat", "Sun"],
       rating: 4.8,
